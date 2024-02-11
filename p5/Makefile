@@ -1,5 +1,5 @@
 OBJS=xcheck.o
-CFLAGS=-Wall -Werror -pthread -O
+CFLAGS=-Wall -Werror -O
 
 %.o: %.c
 	gcc -c -o $@ $< $(CFLAGS)
